@@ -11,7 +11,7 @@
 // threads in block = 256
 
 template <const int NUM_THREADS = 256>
-__global__ void softmax_block_reduce(
+__global__ void softmax_block_reduce_kernel(
     const float* x,
     float* y,
     int N
@@ -136,31 +136,31 @@ __global__ void naive_softmax_kernel_1(const float* x, float* y, int N) {
 
 // 1D flatten
 #define DISPATCH_NAIVE_SOFTMAX_F32(S, H) \
-    dim3 block(64);                     \
-    dim3 grid((S * H + 64 - 1) / 64);  \
+    dim3 block(256);                     \
+    dim3 grid((S * H + 256 - 1) / 256);  \
     LANUCH_NAIVE_SOFTMAX_F32_KERNEL();
 
 
 #define LANUCH_NAIVE_SOFTMAX_F32_KERNEL_1() \
-    naive_softmax_kernel<<<grid, block>>>(reinterpret_cast<float*>(x.data_ptr()), \
+    naive_softmax_kernel_1<<<grid, block>>>(reinterpret_cast<float*>(x.data_ptr()), \
                                               reinterpret_cast<float*>(y.data_ptr()), N)
 
 // 1D flatten
 #define DISPATCH_NAIVE_SOFTMAX_F32_1(S, H) \
-    dim3 block(64);                     \
-    dim3 grid((S * H + 64 - 1) / 64);  \
+    dim3 block(256);                     \
+    dim3 grid((S * H + 256 - 1) / 256);  \
     LANUCH_NAIVE_SOFTMAX_F32_KERNEL_1();
 
 
 
 #define LANUCH_SOFTMAX_BLOCK_REDUCE_KERNEL() \
-    naive_softmax_kernel<<<grid, block>>>(reinterpret_cast<float*>(x.data_ptr()), \
+    softmax_block_reduce_kernel<<<grid, block>>>(reinterpret_cast<float*>(x.data_ptr()), \
                                               reinterpret_cast<float*>(y.data_ptr()), N)
 
 // 1D flatten
 #define DISPATCH_SOFTMAX_BLOCK_REDUCE_F32(S, H) \
-    dim3 block(64);                     \
-    dim3 grid((S * H + 256 - 1) / 64);  \
+    dim3 block(256);                     \
+    dim3 grid((S * H + 256 - 1) / 256);  \
     LANUCH_SOFTMAX_BLOCK_REDUCE_KERNEL();
 
 

@@ -74,5 +74,5 @@ out = torch.zeros_like(x).cuda().float().contiguous()
 
 run_benchmark(lib.softmax_f32_naive, x, "softmax_naive", out)
 run_benchmark(lib.softmax_f32_naive_1, x, "softmax_naive_1", out)
-run_benchmark(lib.softmax_f32_naive_1, x, "softmax_block_reduce", out)
+run_benchmark(lib.softmax_block_reduce, x, "softmax_block_reduce", out)
 run_benchmark(partial(torch.softmax, dim=1, out=out), x, "softmax_torch")

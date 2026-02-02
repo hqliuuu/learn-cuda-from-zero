@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\c\u002Bcode\\cuda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elementwise\\elementwise.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\c\u002Bcode\\cuda\\elementwise\\elementwise1.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elementwise\\elementwise1.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elementwise\\elementwise.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\c\u002Bcode\\cuda\\matrixSum1D_GPU\\matrixSum1D_GPU.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:matrixSum1D_GPU\\matrixSum1D_GPU.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "matrixSum1D_GPU.cu",
+              "DocumentMoniker": "F:\\c\u002Bcode\\cuda\\matrixSum1D_GPU\\matrixSum1D_GPU.cu",
+              "RelativeDocumentMoniker": "matrixSum1D_GPU\\matrixSum1D_GPU.cu",
+              "ToolTip": "F:\\c\u002Bcode\\cuda\\matrixSum1D_GPU\\matrixSum1D_GPU.cu",
+              "RelativeToolTip": "matrixSum1D_GPU\\matrixSum1D_GPU.cu",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-09T14:06:58.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "elementwise1.cu",
+              "DocumentMoniker": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise1.cu",
+              "RelativeDocumentMoniker": "elementwise\\elementwise1.cu",
+              "ToolTip": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise1.cu",
+              "RelativeToolTip": "elementwise\\elementwise1.cu",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwFwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-09T14:04:05.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "elementwise.py",
+              "DocumentMoniker": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.py",
+              "RelativeDocumentMoniker": "elementwise\\elementwise.py",
+              "ToolTip": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.py",
+              "RelativeToolTip": "elementwise\\elementwise.py",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFoAAAAXAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOASURBVEhL1ZVPaBRXHMe/82cns2u7rmyTmF0SKQ1aNBcvBaUXe6uHNDnkVERIhNKDrYgIRj3k4k1B9GTBiyiCFjxE4inm4CWwJcKmySaNTYhttlubZncz\u002ByeZN/P6e29nZ2YhqK146A9\u002B/N68efP5vt/7vfcG79U4517r/ZniRTwuzvFPo3Gcq57HrJNBj2Igrero1hSkdRdpw0ZCtRFxHBjkzRhui6jSpPMbBg72/S3ZqqSTpUwdmcrv6Kx/ArcWw1bdRH0rgs1tFSVbwTrFtaqBl5U2/GpFsbQZw0I5hlwpioWSicVyBLlyG4rVLtTYtkcNZXCxfIX//NcWFn58ALfqgFUcOFUGR0bPvTa3ObhDzrwYamenDqDg5HG094/WDO5t38U8/\u002Bmd4MI18wMw0/CoIQGVU1rqug9fvrGM1duryNzMYOzkGHSmS3hfbx\u002BuX7qOQqaA5xPPMTw03CJk6LugqBGPGhJoVzV8pDfgYrbCLv9wGXce38HIwAgGjw2iu7MbT24/QWeyE0PfDGFicgLcDeAimtyE7vhY6F5El6pCibhY9ZZCWHY\u002Bi/xaHiNfjSDVnkL/sX4wh\u002BHEdydQq9QwOTXZAhcuqsr9yoYySEcc7NXsxnp7Ao\u002BuPcL0/WmUNku4dfcWiqUirIol4U1gSy2kgAIe7J1AYJ/BkNK3GgLeEl24egFHho7g8PHDKBaLeDj\u002BEIl4AmPnxrD/4/0Y/X4UA18OtAhIOIk0LagBXMQp/eZuEZbNZTGXm/M/tsoWTo\u002BexqmvT2Hm6QzOfHsGyT3JAC7qEYIL85/Ga/v4q00NZ/s33rgVRbsn1YOVlZWgj\u002BCgeRXWBpGrz\u002BLzdE6y/Qz20DGP2\u002Byt4CLuBBfRpTnvWOSEY2MXeRjy2nbTQ3DxLHeRxxTmC\u002BzethFjdFLfAS6jXPUgBV/AZAyG6wYf/wd403bMQCO4uGrlYAJaLyxUViqovqyilq\u002Bh/mcdizOLbwXfUaDZ2ZxtrDuGaFcUZoeJtmQbjISB3kO9r4UL47LCQZ8vYNFdxMQpFB8J/5fLErZwr1\u002BNX36Lc8Vpx4cK3YaKBo1uRJ2iLq4rEncVmgtNwFXFVUDP5A69k9Elp7GM01gzimXrGb5INc5BILCU5AKqaSoi9Ks0CCo8ylV5OrmmNaIQootRAOkHKYXpZynFGI1lFAv2Bj7ryARb6X9swD86NiJm0/wa5AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-09-09T12:40:15.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "elementwise.cu",
+              "DocumentMoniker": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.cu",
+              "RelativeDocumentMoniker": "elementwise\\elementwise.cu",
+              "ToolTip": "F:\\c\u002Bcode\\cuda\\elementwise\\elementwise.cu",
+              "RelativeToolTip": "elementwise\\elementwise.cu",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwJYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-09T08:22:28.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
